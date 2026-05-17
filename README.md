@@ -68,18 +68,6 @@ Open [http://localhost:8000/docs](http://localhost:8000/docs) for the API docs.
 
 ---
 
-## Environment Variables
-
-| Variable | Description | Default |
-|---|---|---|
-| `SECRET_KEY` | JWT signing key – **change this!** | `change-this-secret-key-in-production` |
-| `ALGORITHM` | JWT algorithm | `HS256` |
-| `ACCESS_TOKEN_EXPIRE_MINUTES` | Token lifetime | `30` |
-| `DATABASE_URL` | SQLAlchemy DB URL | `sqlite:///./taskmanager.db` |
-
-For PostgreSQL: `DATABASE_URL=postgresql://user:password@host/dbname`
-
----
 
 ## Running Tests
 ```bash
